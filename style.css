@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: vazir;
+}
+@font-face {
+    font-family: vazir;
+    src: url(./fonts/Vazir-Bold.ttf) format('truetype');
+}
