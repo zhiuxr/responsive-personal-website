@@ -8,3 +8,55 @@
     font-family: vazir;
     src: url(./fonts/Vazir-Bold.ttf) format('truetype');
 }
+body {
+    background-color: #f6f5f5;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    direction: ltr;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5px;
+
+} 
+.nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nav ul li a{
+    margin: 30px;
+    font-family: 'Vazir', Arial, sans-serif;
+    color: #505050;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logo{
+    font-family: 'Vazir', Arial, sans-serif;
+    color: #000000;
+    font-size: 22px;
+    margin-left: 15px;
+}
+::-webkit-scrollbar {
+    width: 14px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+html {
+    scroll-behavior: smooth;
+}
