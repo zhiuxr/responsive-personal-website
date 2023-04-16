@@ -62,8 +62,14 @@ a {
     border-radius: 10px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
 }
-.text-container {
+.text-container p:nth-child(1) {
+    font-size: 22px;
+}
+.text-container h2:nth-child(1) {
 
+}
+.text-container p:nth-child(2) {
+    
 }
 ::-webkit-scrollbar {
     width: 14px;
