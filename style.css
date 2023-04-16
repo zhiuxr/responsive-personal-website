@@ -96,7 +96,7 @@ a {
     height: fit-content;
     margin-bottom: 30px;
 } 
-.btn-container {
+.btn-container button {
     width: 130px;
     height: 42px;
     border-radius: 10px;
