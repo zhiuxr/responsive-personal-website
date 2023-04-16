@@ -55,8 +55,8 @@ a {
     padding: 120px 60px;
 }
 .image-container {
-    height: 560px;
-
+    position: relative;
+    margin-right: 200px;
 }
 .head-image {
     width: 650px;
@@ -66,6 +66,7 @@ a {
 .text-container {
     flex-grow: 1;
     margin-right: 100px;
+    margin-bottom: 50px;
 }
 .text-container p:nth-child(1) {
     font-size: 22px;
