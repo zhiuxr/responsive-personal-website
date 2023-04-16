@@ -112,7 +112,9 @@ a {
     color:#373636;
 }
 .cv {
-
+    background-color: #0b0b0b;
+    color:#ffffff;
+    border: none;
 }
 ::-webkit-scrollbar {
     width: 14px;
