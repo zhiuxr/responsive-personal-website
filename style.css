@@ -96,7 +96,15 @@ a {
     height: fit-content;
     margin-bottom: 30px;
 } 
+.btn-container {
+    
+}
+.Recruitment-btn {
 
+}
+.cv {
+
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
