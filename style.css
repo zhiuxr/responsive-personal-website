@@ -64,12 +64,17 @@ a {
 }
 .text-container p:nth-child(1) {
     font-size: 22px;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+    direction: rtl;
+    height: fit-content;
 }
 .text-container h2:nth-child(1) {
 
 }
 .text-container p:nth-child(2) {
-    
+
 }
 ::-webkit-scrollbar {
     width: 14px;
