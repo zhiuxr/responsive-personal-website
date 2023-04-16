@@ -59,7 +59,8 @@ a {
 
 }
 .head-image {
-    border-radius: 10px;
+    width: 650px;
+    border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
 }
 .text-container {
