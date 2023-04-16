@@ -108,7 +108,8 @@ a {
     cursor: pointer;
 }
 .Recruitment-btn {
-
+    border: 2px solid #373636;
+    color:#373636;
 }
 .cv {
 
