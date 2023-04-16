@@ -33,7 +33,7 @@ a {
     flex-direction: row-reverse;
 }
 .nav ul li a{
-    margin: 30px;
+    padding: 30px;
     font-family: 'Vazir', Arial, sans-serif;
     color: #505050;
     font-size: 18px;
