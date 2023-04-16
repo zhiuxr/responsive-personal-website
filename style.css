@@ -97,7 +97,15 @@ a {
     margin-bottom: 30px;
 } 
 .btn-container {
-    
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    direction: rtl;
+    cursor: pointer;
 }
 .Recruitment-btn {
 
