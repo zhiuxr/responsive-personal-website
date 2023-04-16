@@ -62,6 +62,10 @@ a {
     border-radius: 10px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
 }
+.text-container {
+    flex-grow: 1;
+    margin-right: 100px;
+}
 .text-container p:nth-child(1) {
     font-size: 22px;
     font-weight: bold;
@@ -89,7 +93,8 @@ a {
     direction: rtl;
     height: fit-content;
     margin-bottom: 30px;
-}  
+} 
+
 ::-webkit-scrollbar {
     width: 14px;
 }
