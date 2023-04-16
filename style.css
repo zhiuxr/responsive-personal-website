@@ -46,10 +46,13 @@ a {
     margin-left: 15px;
 }
 .container {
-    
+
 }
 .image-container {
 
+}
+.text-container {
+    
 }
 ::-webkit-scrollbar {
     width: 14px;
