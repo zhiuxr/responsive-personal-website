@@ -55,7 +55,11 @@ a {
     padding: 120px 60px;
 }
 .image-container {
-    
+
+}
+.head-image {
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
 }
 .text-container {
 
