@@ -81,9 +81,15 @@ a {
     margin-bottom: 20px;
     margin-top: 0px;
 }
-.text-container p:nth-child(2) {
-
-}
+.text-container p:nth-child(3) {
+    font-family: 'Vazir', Arial, sans-serif;
+    color: #403e3e;
+    font-size: 30px ;
+    line-height: 30px;
+    direction: rtl;
+    height: fit-content;
+    margin-bottom: 30px;
+}  
 ::-webkit-scrollbar {
     width: 14px;
 }
