@@ -129,6 +129,10 @@ a {
     align-items: center;
     font-family: 'Vazir', Arial, sans-serif;
 }
+#about-me img{
+    height: 252px;
+    border-radius: 15px;
+  }
 button:active {
     transform: scale(1.1);
 }
