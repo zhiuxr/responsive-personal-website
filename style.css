@@ -143,8 +143,15 @@ a {
     font-size: 23px;
     line-height: 0px;
 }
-.about-me-btn {
-    
+.about-me-btn button {
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    background-color:#262525;
+    font-family: 'Vazir', Arial, sans-serif;
+    cursor: pointer;
 } 
 button:active {
     transform: scale(1.1);
