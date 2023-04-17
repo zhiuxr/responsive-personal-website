@@ -116,6 +116,9 @@ a {
     color:#ffffff;
     border: none;
 }
+#about-me {
+    
+}
 button:active {
     transform: scale(1.1);
 }
