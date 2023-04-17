@@ -132,7 +132,12 @@ a {
 #about-me img{
     height: 252px;
     border-radius: 15px;
-  }
+}
+.about-me-text{
+    width: 550px;
+    font-family: 'Vazir', Arial, sans-serif;
+    font-size: 16px;
+}
 button:active {
     transform: scale(1.1);
 }
