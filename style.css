@@ -127,7 +127,6 @@ a {
     position: relative;
     justify-content: space-evenly;
     align-items: center;
-    font-family: 'Vazir', Arial, sans-serif;
 }
 #about-me img{
     height: 252px;
@@ -135,9 +134,15 @@ a {
 }
 .about-me-text{
     width: 550px;
-    font-family: 'Vazir', Arial, sans-serif;
     font-size: 16px;
+    text-align: justify;
 }
+.about-me-text:nth-child(1){
+    color: #403e3e;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+  } 
 button:active {
     transform: scale(1.1);
 }
