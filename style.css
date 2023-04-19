@@ -175,6 +175,7 @@ button:active {
     border-bottom: 2px solid #ffffff;
     margin-bottom: 30px;
 }
+
 ::-webkit-scrollbar {
     width: 14px;
 }
