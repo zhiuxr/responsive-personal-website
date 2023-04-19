@@ -156,6 +156,9 @@ a {
 button:active {
     transform: scale(1.1);
 }
+.contact-me {
+    
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
