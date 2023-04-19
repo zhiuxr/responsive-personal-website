@@ -176,7 +176,15 @@ button:active {
     margin-bottom: 30px;
 }
 .contact-me button {
-    
+    width: 200px;
+    height: 40px;
+    background-color: #f6f5f5;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Vazir', Arial, sans-serif;
+    font-weight: bold;  
+    cursor: pointer;
 }
 ::-webkit-scrollbar {
     width: 14px;
