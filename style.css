@@ -195,7 +195,7 @@ button:active {
     align-items: center;
 }
 .foot p {
-    
+    font-family: 'Vazir', Arial, sans-serif;
 }
 ::-webkit-scrollbar {
     width: 14px;
