@@ -185,6 +185,7 @@ button:active {
     font-family: 'Vazir', Arial, sans-serif;
     font-weight: bold;  
     cursor: pointer;
+    font-size: 20px;
 }
 .foot {
     height: 300px;
