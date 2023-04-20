@@ -186,6 +186,9 @@ button:active {
     font-weight: bold;  
     cursor: pointer;
 }
+.foot {
+    
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
