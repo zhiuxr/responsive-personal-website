@@ -187,7 +187,11 @@ button:active {
     cursor: pointer;
 }
 .foot {
-    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 ::-webkit-scrollbar {
     width: 14px;
