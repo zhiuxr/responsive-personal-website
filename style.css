@@ -194,6 +194,9 @@ button:active {
     justify-content: center;
     align-items: center;
 }
+.foot p {
+    
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
