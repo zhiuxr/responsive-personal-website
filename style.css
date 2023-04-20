@@ -198,7 +198,10 @@ button:active {
     font-family: 'Vazir', Arial, sans-serif;
 }
 .foot p :nth-child(1){
-    
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+    margin-bottom: 30px;
 }
 ::-webkit-scrollbar {
     width: 14px;
