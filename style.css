@@ -209,6 +209,9 @@ footer p:nth-child(1){
    width: 600px;
    text-align: center;
  }
+ #social-icon{
+    display: flex;
+ }
 ::-webkit-scrollbar {
     width: 14px;
 }
