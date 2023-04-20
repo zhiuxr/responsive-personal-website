@@ -197,6 +197,9 @@ button:active {
 .foot p {
     font-family: 'Vazir', Arial, sans-serif;
 }
+.foot p :nth-child(1){
+    
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
