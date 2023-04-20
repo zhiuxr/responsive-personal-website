@@ -197,12 +197,18 @@ button:active {
 .foot p {
     font-family: 'Vazir', Arial, sans-serif;
 }
-.foot p :nth-child(1){
+footer p:nth-child(1){
     font-size: 30px;
     font-weight: bold;
     color: #191919;
     margin-bottom: 30px;
-}
+ }
+ footer p:nth-child(2){
+   font-size: 16px;
+   color: #7e7d7d;
+   width: 600px;
+   text-align: center;
+ }
 ::-webkit-scrollbar {
     width: 14px;
 }
