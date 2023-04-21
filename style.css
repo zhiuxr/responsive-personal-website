@@ -253,7 +253,11 @@ footer p:nth-child(2){
     background-color: #ffffff;
     border: 1px solid #cbcbcb;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-  }
+}
+.social-nav i{
+    color: #2b2b2b;
+    font-size: 25px;
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
