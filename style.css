@@ -236,6 +236,11 @@ footer p:nth-child(2){
   color: #5c5c5c;
   transition: all ease 0.5s;
 }
+.social-nav{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
