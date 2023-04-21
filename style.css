@@ -231,6 +231,11 @@ footer p:nth-child(2){
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   transition: all ease 0.5s;
 }
+#social-icon a:hover i,
+.social-nav a:hover i{
+  color: #5c5c5c;
+  transition: all ease 0.5s;
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
