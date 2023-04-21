@@ -193,23 +193,23 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  footer p{
+}
+footer p{
     font-family: 'Vazir', Arial, sans-serif;
-  }
-  footer p:nth-child(1){
+}
+footer p:nth-child(1){
      font-size: 30px;
      font-weight: bold;
      color: #191919;
      margin-bottom: 30px;
-  }
-  footer p:nth-child(2){
+}
+footer p:nth-child(2){
     font-size: 16px;
     color: #7e7d7d;
     width: 600px;
     text-align: center;
-  }
-  #social-icon a{
+}
+#social-icon a{
     width: 40px;
     height: 40px;
     display: flex;
@@ -218,13 +218,19 @@ footer{
     background-color: #e6e3e3;
     margin: 20px 10px;
     border-radius: 50%;
-  }
-  #social-icon{
+}
+#social-icon{
     display: flex;
-  }
-  #social-icon i{
+}
+#social-icon i{
     color: #000000;
-  }
+}
+#social-icon a:hover
+.social-nav a:hover{
+  background-color: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+  transition: all ease 0.5s;
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
