@@ -390,8 +390,29 @@ footer p:nth-child(2){
     }
     .head-image{
       width: 300px;
-    }
+}
   }
+  @media only screen and (max-width:440px){
+    .container{
+      padding: 25px 50px;
+    }
+    .head-image{
+      width: 250px;
+    }
+    .text-container h2:nth-child(2){
+      font-size: 20px;
+    }
+    .text-container p:nth-child(1){
+      font-size: 16px;
+    }
+    .text-container p:nth-child(3){
+      font-size: 16px;
+    }
+  
+    #about-me{
+      padding: 20px 20px;
+    }
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
