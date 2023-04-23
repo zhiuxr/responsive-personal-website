@@ -24,7 +24,17 @@ a {
     display: none;
     cursor: pointer;
 }
-
+.SideNavMenu{
+    position: fixed;
+    width: 280px;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0 0 5px white;
+    z-index: 100;
+    display: none;
+  }
 .nav {
     display: flex;
     direction: ltr;
