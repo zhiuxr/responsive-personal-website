@@ -413,6 +413,14 @@ footer p:nth-child(2){
       padding: 20px 20px;
     }
 }
+@media only screen and (max-width:700px){
+    .menuOpener{
+      display: block;
+    }
+    nav ul{
+      display: none;
+    }
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
