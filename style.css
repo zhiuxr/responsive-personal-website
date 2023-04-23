@@ -55,6 +55,16 @@ a {
   @keyframes hideSideMenu {
     0%{width: 300px;}
     100%{width: 0px;}
+
+}
+.BackgroundBlack{
+    position: fixed;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
 }
 .nav {
     display: flex;
