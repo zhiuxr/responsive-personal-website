@@ -341,6 +341,29 @@ footer p:nth-child(2){
       height: 300px;
     }
 }
+@media only screen and (max-width:822px){
+    #about-me{
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 30px 100px;
+      height: fit-content;
+      max-width: 700px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    #about-me img{
+      width: 100%;
+      height: auto;
+    }
+    .about-me-text{
+      width: 100%;
+      margin-top: 20px;
+    }
+    .about-me-text p:first-child{
+      text-align: center;
+      font-size: 20px;
+    }
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
