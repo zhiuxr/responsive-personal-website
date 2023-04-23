@@ -266,6 +266,14 @@ footer p:nth-child(2){
       font-size: 40px;
   
     }
+}
+@media only screen and (max-width:1460px){
+    .head-image{
+      width: 600px;
+    }
+    .container{
+      padding: 80px 60px;
+    }
   }
 ::-webkit-scrollbar {
     width: 14px;
