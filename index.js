@@ -11,3 +11,12 @@ function CloseHamburgerMenu(){
     bgBlack.style.display = 'none'
 
 }
+
+function OpenHamgurgerMenu()
+{
+    document.body.style.overflow = 'hidden'
+    SideMenu.style.display = 'block'
+    SideMenu.style.animation = 'none'
+    SideMenu.style.animation = 'ShowSideMenu 0.4s forwards ease-out'
+    bgBlack.style.display = 'block'
+}
