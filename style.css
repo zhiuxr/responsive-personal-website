@@ -17,6 +17,14 @@ ul {
 a {
     text-decoration: none;
 }
+.menuOpener{
+    margin-right: 30px;
+    height: 40px;
+    width: 40px;
+    display: none;
+    cursor: pointer;
+}
+
 .nav {
     display: flex;
     direction: ltr;
