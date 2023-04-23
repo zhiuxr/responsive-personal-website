@@ -259,10 +259,10 @@ footer p:nth-child(2){
     font-size: 25px;
 }
 @media only screen and (max-width:1674px){
-    .container p{
+    .text-container p h2{
       margin: 0px;
     }
-    .container p:nth-child(2){
+    .text-container h2:nth-child(2){
       font-size: 40px;
   
     }
@@ -289,7 +289,21 @@ footer p:nth-child(2){
       width: 400px;
       font-size: 13px;
     }
-  }
+}
+@media only screen and (max-width:1160px){
+    .text-container p:nth-child(1){
+      font-size: 20px;
+    }
+    .text-container h2:nth-child(2){
+      font-size: 30px;
+    }
+    .text-container{
+      padding-left: 20px;
+    }
+    .text-container{
+      margin-right: 50px;
+    }
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
