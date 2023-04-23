@@ -258,14 +258,15 @@ footer p:nth-child(2){
     color: #2b2b2b;
     font-size: 25px;
 }
-@media only screen and (max-width:1664px){
-    .text-container p {
-        margin: 0;
+@media only screen and (max-width:1674px){
+    .container p{
+      margin: 0px;
     }
-    .text-container :nth-child(2) {
-        font-size: 40px;
+    .container p:nth-child(2){
+      font-size: 10px;
+  
     }
-}
+  }
 ::-webkit-scrollbar {
     width: 14px;
 }
