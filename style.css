@@ -304,6 +304,43 @@ footer p:nth-child(2){
       margin-right: 50px;
     }
 }
+@media only screen and (max-width:1000px){
+    .container{
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+    }
+    .image-container{
+      flex-basis: 100%;
+    }
+    .head-image{
+      display: block;
+      margin: auto;
+    }
+    .text-container{
+      margin: auto;
+      margin-top: 20px;
+      width: fit-content;
+      flex-grow: 0;
+    }
+    .container p h2{
+      text-align: center;
+    }
+    .btn-container{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .container{
+      padding-left: 60px;
+    }
+    .head-image{
+      width: 400px;
+    }
+  
+    #about-me{
+      max-width: 800px;
+      height: 300px;
+    }
+}
 ::-webkit-scrollbar {
     width: 14px;
 }
