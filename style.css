@@ -370,7 +370,28 @@ footer p:nth-child(2){
     }
     .about-me-btn button{
       margin-top: 10px;
-}
+}}
+@media only screen and (max-width:525px){
+    .head-image{
+      width: 300px;
+    }
+    .container button{
+      width: 110px;
+      font-size: 12px;
+    }
+    .text-container p:nth-child(3){
+      font-size: 20px;
+    }
+    .text-container h2:nth-child(2){
+      font-size: 25px;
+    }
+    .container{
+      padding: 30px 60px;
+    }
+    .head-image{
+      width: 300px;
+    }
+  }
 ::-webkit-scrollbar {
     width: 14px;
 }
