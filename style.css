@@ -274,6 +274,21 @@ footer p:nth-child(2){
     .container{
       padding: 80px 60px;
     }
+}
+@media only screen and (max-width:1260px){
+    .head-image{
+      width: 500px;
+    }
+    #about-me{
+      max-width: 900px;
+    }
+    #about-me img{
+      height: 170px;
+    }
+    .about-me-text{
+      width: 400px;
+      font-size: 13px;
+    }
   }
 ::-webkit-scrollbar {
     width: 14px;
