@@ -1,2 +1,13 @@
 const bgBlack = document.querySelector('.BackgroundBlack');
 const SideMenu = document.querySelector('.SideNavMenu')
+
+function CloseHamburgerMenu(){
+    document.body.style.overflow = 'auto'
+    SideMenu.style.animation = 'none'
+    SideMenu.style.animation = 'hideSideMenu 0.4s forwards ease-out'
+    setTimeout(() => {
+        SideMenu.style.display = 'none'
+    }, 400);
+    bgBlack.style.display = 'none'
+
+}
